@@ -1,5 +1,6 @@
 # make_EnDB_rn7
 If your current reference genome version is not supported on EnsDb (eg Rattus norvegicus, rn7), the make_EnDB_rn7 repository provides a script that facilitates the process of installing and loading the Rat Ensembl database into your local R environment. This process includes fetching the database from AnnotationHub, storing it in your local directory, transforming it into a package, and subsequently installing and loading this package. Not only does this ensure you have access to the required genome version, but it also considerably enhances the loading speed in your future sessions.
+![image](https://github.com/mdsoapbrain/make_EnDB_rn7/assets/43698523/ac8e9ea2-232f-41e8-912c-46533cca67be)
 
 ## Installation
 The first step is to install necessary packages. If they are not yet installed, you can install them using BiocManager:
