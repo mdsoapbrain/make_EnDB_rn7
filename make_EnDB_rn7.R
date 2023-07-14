@@ -19,7 +19,7 @@ EnsDb.rat <- EnsDb.rat[["AH98149"]]
 # By doing so, you can just quickly load the library next time.
 # see: ?makeEnsembldbPackage
 #set working dir to store the relaively large files.
-setwd("/Volumes/Seagate/multiome_cp")
+setwd("/your/working/dir")
 
 #copy databse from the cache to working dir
 file.copy(AnnotationHub::cache(ah["AH98149"]), "./EnsDb.rat.sqlite")
